@@ -4,7 +4,7 @@ This is a plugin that provides helpful *snippets* for use when **creating local 
 
 The snippets can be inserted while editing a `.jsonc` file (superset of JSON *with comments*). For example, while typing "create snippet" in a valid JSON object (`{<within these curly braces>}`) pressing <kbd>enter</kbd> while `create snippet` is highlighted in the *quick suggestion* menu will generate:
 
-```json
+```jsonc
 
 {
     "name of snippet":{
@@ -22,7 +22,7 @@ The snippets can be inserted while editing a `.jsonc` file (superset of JSON *wi
 
 You can then press <kbd>tab</kbd> to traverse through the editable elements in sequence, which in this case would be the values for *prefix*, *body*, *description* and *scope*.
 
-![Demonstration of basic functionality](images\demo1.gif)
+![Demonstration of basic functionality](images/demo1.gif)
 
 ## Features
 
@@ -34,7 +34,7 @@ The plugin includes snippets for creating the following:
 
 Snippet writing requires a specific syntax that can be difficult to recall if you are not writing them frequently (*maybe it's just me*). For example, to create a placeholder with three internal choices the following has to be written:
 
-```json
+```jsonc
 
 ${1:number}|${2:choice1},${3:choice2},${4:choice3}|}
 
