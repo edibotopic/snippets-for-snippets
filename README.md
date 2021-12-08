@@ -36,7 +36,9 @@ Snippet writing requires a specific syntax that can be difficult to recall if yo
 
 ```jsonc
 
+{
 ${1:number}|${2:choice1},${3:choice2},${4:choice3}|}
+}
 
 ```
 
@@ -84,7 +86,7 @@ By default, VSCode doesn't allow snippets to be triggered *from within a string*
     "editor.quickSuggestions": {
         "other": true,
         "comments": false,
-        "strings": true //<<<---|this is the important one|
+        "strings": true
     }
 
 ```
