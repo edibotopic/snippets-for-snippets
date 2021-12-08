@@ -4,7 +4,7 @@
     "publisher": "edibotopic",
     "description": "Snippets for writing snippets",
     "version": "0.0.1",
-    "icon": "icon.png",
+    "icon": "images/icon.png",
     "galleryBanner": {
         "theme": "dark",
         "color": "#241c1f"
@@ -25,7 +25,7 @@
     "contributes": {
         "snippets": [
             {
-                "language": "json",
+                "language": "jsonc",
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
