@@ -36,9 +36,7 @@ Snippet writing requires a specific syntax that can be difficult to recall if yo
 
 ```jsonc
 
-{
 ${1:number}|${2:choice1},${3:choice2},${4:choice3}|}
-}
 
 ```
 
