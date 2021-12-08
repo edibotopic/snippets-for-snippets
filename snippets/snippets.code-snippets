@@ -6,7 +6,7 @@
             "$0",
             "}"
         ],
-        "description": "Creates closing brackets in the json file",
+        "description": "Place cursor in new line within JSON object",
         "scope": "json"
     },
 

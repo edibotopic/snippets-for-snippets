@@ -4,10 +4,10 @@
     "publisher": "edibotopic",
     "description": "Snippets for writing snippets",
     "version": "0.0.1",
-    "icon": "",
+    "icon": "icon.png",
     "galleryBanner": {
         "theme": "dark",
-        "color": "#000000"
+        "color": "#241c1f"
     },
     "author": {
         "name": "edibotopic"
