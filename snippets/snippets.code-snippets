@@ -1,0 +1,91 @@
+{
+    "Init snippet json":{
+        "prefix": ["initialise a snippet file"],
+        "body": [
+            "{",
+            "$0",
+            "}"
+        ],
+        "description": "Creates closing brackets in the json file",
+        "scope": "json"
+    },
+
+    "Create a snippet":{
+        "prefix": ["create a snippet"],
+        "body": [
+            "   \"${1:name of snippet}\":{",
+            "       \"prefix\": [\"${2:prefix for snippet}\"],",
+            "       \"body\": [",
+            "           \" ${3:body of snippet} \"",
+            "       ],",
+            "       \"description\": \"${4:description of snippet}\",",
+            "       \"scope\": \"${5:language of snippet}\"",
+            "   }$0"
+        ],
+        "description": "Creates a template for making a snippet",
+        "scope": "json"
+    },
+
+    "Placeholder":{
+        "prefix": ["Placeholder"],
+        "body": [
+            "${${1:number}:${0:snippet}}"
+        ],
+        "description": "Creates a placeholder",
+        "scope": "json"
+    },
+
+    "Tabstop":{
+        "prefix": ["Tabstop"],
+        "body": [
+            "$$number"
+        ],
+        "description": "Creates a tabstop",
+        "scope": "json"
+    },
+
+    "Choice":{
+        "prefix": ["Choice"],
+        "body": [
+            "${${1:number}|${2:choice1},${3:choice2},${4:choice3}|}"
+        ],
+        "description": "Creates a placeholder with internal choice",
+        "scope": "json"
+    },
+
+    "Variable default":{
+        "prefix": ["Variable default"],
+        "body": [
+            "$$name"
+        ],
+        "description": "Creates a variable with default value",
+        "scope": "json"
+    },
+
+    "Builtin variables (text and files)":{
+        "prefix": ["Builtin variables for text and files"],
+        "body": [
+            "${1|TM_SELECTED_TEXT,TM_CURRENT_LINE,TM_CURRENT_WORD,TM_LINE_INDEX,TM_LINE_NUMBER,TM_FILENAME,TM_FILENAME_BASE,TM_DIRECTORY,TM_FILEPATH,RELATIVE_FILEPATH,CLIPBOARD,WORKSPACE_NAME,WORKSPACE_FOLDER|}"
+        ],
+        "description": "Dropdown list of builtin snippet variables for text and files",
+        "scope": "json"
+    },
+
+    "Builtin variables (time and date)":{
+        "prefix": ["Builtin variables for time and date"],
+        "body": [
+            "${1|CURRENT_YEAR,CURRENT_YEAR_SHORT,CURRENT_MONTH,CURRENT_MONTH_NAME,CURRENT_MONTH_NAME_SHORT,CURRENT_DATE,CURRENT_DAY_NAME,CURRENT_DAY_NAME_SHORT,CURRENT_HOUR,CURRENT_MINUTE,CURRENT_SECOND,CURRENT_SECONDS_UNIX|}"
+        ],
+        "description": "Dropdown list of builtin snippet variables for time and date",
+        "scope": "json"
+    },
+
+    "Builtin variables (random numbers)":{
+        "prefix": ["Builtin variables for randomisation"],
+        "body": [
+            "${1|RANDOM,RANDOM_HEX,UUID|}"
+        ],
+        "description": "Dropdown list of builtin snippet variables for randomisation",
+        "scope": "json"
+    },
+}

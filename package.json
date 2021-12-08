@@ -1,0 +1,33 @@
+{
+    "name": "snippets-for-snippets",
+    "displayName": "Snippets for Snippets",
+    "publisher": "edibotopic",
+    "description": "Snippets for writing snippets",
+    "version": "0.0.1",
+    "icon": "",
+    "galleryBanner": {
+        "theme": "dark",
+        "color": "#000000"
+    },
+    "author": {
+        "name": "edibotopic"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/edibotopic/snippets-for-snippets"
+    },
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "json",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
