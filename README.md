@@ -105,6 +105,10 @@ By default, VSCode doesn't allow snippets to be triggered *from within a string*
 
 ## Release Notes
 
+### 0.0.2
+
+- Minor corrections to README
+
 ### 0.0.1
 
 Initial release with all major snippets included.
@@ -113,5 +117,6 @@ Initial release with all major snippets included.
 
 - [ ] Consider key-binding(s)
 - [ ] Consider VSCode commands for Mac
+- [ ] Remove version info from README
 
 *Snippets for snippets' sake . . .*
